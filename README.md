@@ -1,2 +1,2 @@
 # nutflix
-A simple bootstrap template for a streaming platform
+Questo progetto è solo una semplice prova di uso di bootstrap, non è completo
