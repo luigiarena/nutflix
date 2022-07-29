@@ -43,3 +43,18 @@ body {
 .form-control {
     box-shadow: none !important;
 }
+
+.nutflix-navbar {
+    background: #a02121;
+    position: fixed;
+    z-index: 1000;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.nutflix-navbar.scrolled {
+    background: rgba(10, 10, 10, 0.151);
+}
