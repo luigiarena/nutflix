@@ -1,8 +1,12 @@
+/* Generale */
+
 body {
     background-color: #141414;
     overflow-x: hidden;
     position: relative;
 }
+
+/* Pagina di login */
 
 .login-bg {
     background-color: #000000cb;
@@ -43,6 +47,8 @@ body {
 .form-control {
     box-shadow: none !important;
 }
+
+/* Navbar */
 
 .nutflix-navbar {
     background: rgba(2, 29, 29, 0.945);;
