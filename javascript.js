@@ -1,3 +1,15 @@
+function volumeUp(element) {
+    element.style.display = "none";
+    document.getElementById("showcase-video").muted = false;
+    document.getElementById("volume-up").style.display = "block";
+}
+
+function volumeDown(element) {
+    element.style.display = "none";
+    document.getElementById("showcase-video").muted = true;
+    document.getElementById("volume-down").style.display = "block";
+}
+
 $(document).ready(function(){
     $("body").css("background", "#555555 !important")
     $(window).scroll(function(){

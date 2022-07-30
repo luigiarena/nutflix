@@ -36,6 +36,9 @@
         font-size: 10px !important;
         width: max-content !important;
     }
+    .nutflix-showcase button.volume {
+        padding: 4px;
+    }
     .nutflix-showcase button i {
         font-size: 10px !important;
     }

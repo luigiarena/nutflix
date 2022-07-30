@@ -203,6 +203,15 @@ body {
     padding-right: 10px;
 }
 
+.nutflix-showcase button.volume {
+    padding-right: 0px;
+    border-radius: 90px;
+}
+
+.nutflix-showcase button#volume-up {
+    display: none;
+}
+
 .nutflix-showcase .content {
     position: absolute;
     top: 20px;
