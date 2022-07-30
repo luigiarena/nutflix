@@ -9,11 +9,13 @@
         padding-left: 10px !important;
     
     }
-    
     .nutflix-padding-right {
-        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
     .nutflix-dropdown-box {
         display: inline-block !important;
+    }
+    .nutflix-nav {
+        display: none;
     }
 }

@@ -54,9 +54,11 @@ body {
     background: #010711;
     background: #000;
 }
+
 /* Navbar */
 
 .nutflix-navbar {
+    height: 70px;
     background: rgba(10, 0, 19, 0.95);;
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -70,7 +72,7 @@ body {
 }
 
 .nutflix-row {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between !important;
     align-items: center;
@@ -82,12 +84,11 @@ body {
 }
 
 .nutflix-padding-right {
-    padding-left: 57px !important;
+    padding-right: 57px !important;
 }
 
 .navbar-brand img {
-    width: 100px;
-    display: inline-flex;
+    width: 110px;
 }
 
 .nutflix-dropdown-box {
@@ -98,14 +99,14 @@ body {
     background-color: transparent;
     color:  #fff;
     border: none;
-    fon-size: 9px;
+    font-size: 9px;
 }
 
 .nutflix-dropdown .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.795);
     color:  #fff;
     border: none;
-    fon-size: 9px !important;
+    font-size: 9px !important;
     margin-left: 80px;
     border-top: 3px solid #fff;
     margin-top: 30px;
@@ -128,3 +129,21 @@ body {
     padding: 10px 20px;
 }
 
+.nutflix-nav {
+    display: inline-block;
+    align-items: center;
+}
+
+.nutflix-nav button {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.619);
+    border: none;
+    font-size: 13px;
+}
+
+.nutflix-nav button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+}
