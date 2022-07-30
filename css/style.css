@@ -69,3 +69,54 @@ body {
     justify-content: space-between !important;
     align-items: center;
 }
+
+.nutflix-padding-left {
+    padding-left: 57px !important;
+
+}
+
+.nutflix-padding-right {
+    padding-left: 57px !important;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nutflix-dropdown-box {
+    display: none;
+}
+
+.nutflix-dropdown {
+    background-color: transparent;
+    color:  #fff;
+    border: none;
+    fon-size: 9px;
+}
+
+.nutflix-dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.795);
+    color:  #fff;
+    border: none;
+    fon-size: 9px !important;
+    margin-left: 80px;
+    border-top: 3px solid #fff;
+    margin-top: 30px;
+}
+
+.nutflix-dropdown .dropdown-menu .dropdown-item {
+    color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.nutflix-dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
+}

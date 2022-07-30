@@ -11,6 +11,7 @@
     <!-- Project CSS-->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
     <title>Nutflix Homapage</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -18,11 +19,27 @@
   <body>
 
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scroll nutflix-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nutflix-navbar nutflix-padding-left nutflix-padding-right">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
           <div class="nutflix-row">
-            <section class="left"></section>
+            <!-- left -->
+            <section class="left">
+              <a class="navbar-brand" href="#">
+                <img src="./images/nutflix_logo.png" alt="">
+              </a>
+              <!-- dropdown -->
+              <div class="nutflix-dropdown-box dropdown">
+                <button type="button" class="nutflix-dropdown dropdown-toggle" data-bs-toggle="dropdown">
+                  Browse
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">TV Shows</a></li>
+                  <li><a class="dropdown-item" href="#">Movies</a></li>
+                </ul>
+              </div> 
+            </section>
+            <!-- right -->
             <section class="right"></section>
           </div>
 

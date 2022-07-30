@@ -1,0 +1,16 @@
+@media(max-width:767.98px) {
+    .navbar-brand img {
+        width: 43px !important;
+    }
+    .nutflix-padding-left {
+        padding-left: 10px !important;
+    
+    }
+    
+    .nutflix-padding-right {
+        padding-left: 10px !important;
+    }
+    .nutflix-dropdown-box {
+        display: inline-block !important;
+    }
+}
