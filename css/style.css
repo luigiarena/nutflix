@@ -49,14 +49,14 @@ body {
 /* -- Homepage --*/
 .home-bg {
     background: #010711;
-    background: #000;
+
 }
 
 /* Navbar */
 .nutflix-navbar {
     height: 70px;
     background: rgba(10, 0, 19, 0);
-    transition: all 0.6s ease-out;
+    transition: all 0.8s ease-out;
 }
 
 .nutflix-navbar.scrolled {
@@ -167,4 +167,23 @@ i {
     width: 100%;
     position: relative;
     z-index: 10;
+}
+
+.nutflix-showcase .top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 20;
+    background: linear-gradient(to top, transparent, #000);
+}
+
+.nutflix-showcase .bottom {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 90px;
+    z-index: 20;
+    background: linear-gradient(to bottom, transparent, #010711);
+    background: linear-gradient(to bottom,rgba(7, 0, 27, 0) 0,rgba(7, 0, 27,.15) 15%,rgba(7, 0, 27,.35) 29%,rgba(7, 0, 27,.58) 44%,#010711 68%, #010711);
 }
