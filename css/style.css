@@ -147,7 +147,7 @@ body {
     font-size: 13px;
 }
 
-i {
+.nutflix-navbar i {
     font-size: 20px;
     color: #fff;
     padding: 5px 20px;
@@ -191,4 +191,31 @@ i {
     height: 90px;
     z-index: 20;
     background: linear-gradient(to bottom, transparent, var(--bg-color) 50%);
+}
+
+.nutflix-showcase button {
+    opacity: 0.8;
+}
+
+.nutflix-showcase button i {
+    padding-right: 10px !important;
+}
+
+.nutflix-showcase .content {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
+
+.nutflix-showcase .content .left {
+    width: 90%;
+    margin-left: 80px;
+}
+
+.nutflix-showcase .content .left img {
+    width: 40%;
+    max-width: 200px;
+    margin-top: 25%;
 }

@@ -26,4 +26,17 @@
     .netflix-profile {
         margin-left: 5px !important;
     }
+    .nutflix-showcase .content .left {
+        margin-left: 25px !important;
+    }
+    .nutflix-showcase .content .left img {
+        max-width: 20%;
+    }
+    .nutflix-showcase button {
+        font-size: 10px !important;
+        width: max-content !important;
+    }
+    .nutflix-showcase button i {
+        font-size: 10px !important;
+    }
 }
