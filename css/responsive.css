@@ -18,4 +18,12 @@
     .nutflix-nav {
         display: none;
     }
+    i {
+        font-size: 15px;
+        cursor: pointer;
+        padding: 5px !important;
+    }
+    .netflix-profile {
+        margin-left: 5px !important;
+    }
 }
