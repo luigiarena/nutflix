@@ -80,7 +80,59 @@
     </div>
     <!-- Showcase end -->
 
-    <div style="height: 2000px"></div>
+    <!-- Boxes start -->
+      <div class="box-container">
+        <section class="container-fluid box">
+          <div class="d-flex justify-content-between">
+            <p class="text-white"><b> Trending </b></p>
+            <div class="">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </div>
+          <!-- -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+              <!-- 1st slide -->
+              <div class="carousel-item active">
+                <section>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/test.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <section class="d-flex justify-content-between">
+                          <div><i class="bi bi-play-circle-fill card-icon"></i></div>
+                          <div><i class="bi bi-info-circle card-icon"></i></div>
+                        </section>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- 2nd slide -->
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <!-- 3rd slide -->
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- -->
+        </section>
+      </div>
+    <!-- Boxes end -->
+
+    <!-- div style="height: 2000px"></div -->
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="./javascript.js"></script>
