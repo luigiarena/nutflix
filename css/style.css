@@ -1,6 +1,8 @@
 /* Variabili */
 :root {
     --primary-color: #b77d00;
+    --secondary-color: #37011d;
+    --secondary-color-rgba: 55, 1, 42;
     --bg-color: #333b4d;
 }
 
@@ -65,8 +67,7 @@ body {
 }
 
 .nutflix-navbar.scrolled {
-    background: rgba(10, 0, 19, 0.151);
-    background: rgba(10, 0, 19, 0.95);
+    background-color: rgba(var(--secondary-color-rgba), 0.95);
 }
 
 .nutflix-row {
