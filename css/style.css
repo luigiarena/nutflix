@@ -1,7 +1,6 @@
 /* Generale */
 
 body {
-    background-color: #141414;
     overflow-x: hidden;
     position: relative;
 }
@@ -20,9 +19,9 @@ body {
 .login-top {
     width: 100vw;
     height: 70px;
-    background-color:rgba(2, 29, 29, 0.945);
+    background-color:rgba(10, 0, 19, 0.95);
     box-shadow: 0px 1px 6px #000000;
-    padding: 0px 20px;
+    padding: 0px 57px;
     display: flex;
     align-items: center;
 }
@@ -33,6 +32,7 @@ body {
 
 .login-box {
     background-color: rgba(0, 24, 34, 0.87);
+    background-color: rgba(10, 0, 10, 0.87);
     position: absolute;
     top: 25%;
     width: 430px;
@@ -48,10 +48,16 @@ body {
     box-shadow: none !important;
 }
 
+/* -- Homepage --*/
+
+.home-bg {
+    background: #010711;
+    background: #000;
+}
 /* Navbar */
 
 .nutflix-navbar {
-    background: rgba(2, 29, 29, 0.945);;
+    background: rgba(10, 0, 19, 0.95);;
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
@@ -60,7 +66,7 @@ body {
 }
 
 .nutflix-navbar.scrolled {
-    background: rgba(10, 10, 10, 0.151);
+    background: rgba(10, 0, 19, 0.151);
 }
 
 .nutflix-row {
@@ -81,6 +87,7 @@ body {
 
 .navbar-brand img {
     width: 100px;
+    display: inline-flex;
 }
 
 .nutflix-dropdown-box {
@@ -120,3 +127,4 @@ body {
     font-size: 15px;
     padding: 10px 20px;
 }
+
