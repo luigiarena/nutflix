@@ -1,3 +1,9 @@
+/* Variabili */
+:root {
+    --primary-color: #b77d00;
+    --bg-color: #333b4d;
+}
+
 /* Generale */
 body {
     overflow-x: hidden;
@@ -29,7 +35,6 @@ body {
 }
 
 .login-box {
-    background-color: rgba(0, 24, 34, 0.87);
     background-color: rgba(10, 0, 10, 0.87);
     position: absolute;
     top: 25%;
@@ -48,7 +53,7 @@ body {
 
 /* -- Homepage --*/
 .home-bg {
-    background: #333b4d;
+    background: var(--bg-color);
 
 }
 
@@ -175,7 +180,7 @@ i {
     width: 100%;
     height: 70px;
     z-index: 20;
-    background: linear-gradient(to bottom, rgb(26, 26, 26), rgba(26, 26, 26, 0.45), transparent);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.45) 50%, transparent);
 }
 
 .nutflix-showcase .bottom {
@@ -184,6 +189,5 @@ i {
     width: 100%;
     height: 90px;
     z-index: 20;
-    background: linear-gradient(to bottom, transparent, #010711);
-    background: linear-gradient(to bottom,rgba(7, 0, 27, 0) 0,rgba(7, 0, 27,.15) 15%,rgba(7, 0, 27,.35) 29%,rgba(7, 0, 27,.58) 44%,#010711 68%, #010711);
+    background: linear-gradient(to bottom, transparent, var(--bg-color) 50%);
 }
