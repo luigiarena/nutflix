@@ -21,7 +21,7 @@ body {
     height: 70px;
     background-color:rgba(10, 0, 19, 0.95);
     box-shadow: 0px 1px 6px #000000;
-    padding: 0px 57px;
+    padding: 0px 69px;
     display: flex;
     align-items: center;
 }
@@ -60,10 +60,6 @@ body {
 .nutflix-navbar {
     height: 70px;
     background: rgba(10, 0, 19, 0.95);;
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
 }
 
@@ -99,34 +95,34 @@ body {
     background-color: transparent;
     color:  #fff;
     border: none;
-    font-size: 9px;
+    font-size: 10px;
 }
 
-.nutflix-dropdown .dropdown-menu {
+.nutflix-dropdown-box .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.795);
     color:  #fff;
     border: none;
-    font-size: 9px !important;
-    margin-left: 80px;
+    font-size: 10px !important;
+    margin-left: -80px;
+    border: 1px solid rgb(17, 17, 17);
     border-top: 3px solid #fff;
-    margin-top: 30px;
+    border-radius: 2px;
+    margin-top: 20px !important;
+    padding: 0px;
 }
 
-.nutflix-dropdown .dropdown-menu .dropdown-item {
+.nutflix-dropdown-box .dropdown-menu .dropdown-item {
     color: rgba(255, 255, 255, 0.795);
     text-align: center;
     width: 250px;
-    font-size: 15px;
-    padding: 10px 20px;
+    font-size: 12px;
+    padding: 14px 20px;
+    transition: all 0.3s linear;
 }
 
-.nutflix-dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: rgba(0, 0, 0, 0.11);
+.nutflix-dropdown-box .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(122, 122, 122, 0.144);
     color: rgba(255, 255, 255, 0.795);
-    text-align: center;
-    width: 250px;
-    font-size: 15px;
-    padding: 10px 20px;
 }
 
 .nutflix-nav {
