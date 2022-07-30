@@ -211,11 +211,11 @@ body {
 
 .nutflix-showcase .content .left {
     width: 90%;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .nutflix-showcase .content .left img {
     width: 40%;
     max-width: 200px;
-    margin-top: 25%;
+    margin-top: 10%;
 }
