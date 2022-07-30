@@ -55,12 +55,13 @@ body {
 /* Navbar */
 .nutflix-navbar {
     height: 70px;
-    background: rgba(10, 0, 19, 0.95);;
+    background: rgba(10, 0, 19, 0);
     transition: all 0.6s ease-out;
 }
 
 .nutflix-navbar.scrolled {
     background: rgba(10, 0, 19, 0.151);
+    background: rgba(10, 0, 19, 0.95);
 }
 
 .nutflix-row {
@@ -153,4 +154,17 @@ i {
     border-radius: 4px;
     margin-left: 20px;
     cursor: pointer;
+}
+
+/* Showcase */
+.nutflix-showcase {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.nutflix-showcase video {
+    width: 100%;
+    position: relative;
+    z-index: 10;
 }
