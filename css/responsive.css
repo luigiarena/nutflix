@@ -44,11 +44,15 @@
     }
     .box-container {
         top: -60px;
+        margin: 0px;
     }    
-    .card{
+    .box-container .card{
         width: 150px;
     }
-    .card-icon {
+    .box-container .card-icon {
         font-size: 17px !important;
+    }
+    .box-container .card-body {
+        top: 80px;
     }
 }

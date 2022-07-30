@@ -239,23 +239,65 @@ body {
     z-index: 500;
 }
 
-.card {
-    width: 250px;
+.box-container .carousel-inner {
+    position: relative;
+    overflow: visible;
+}
+
+.box-container .carousel-section {
+    position: absolute;
+}
+
+.box-container .card {
+    width: 250px !important;
     background: #141414 !important;
     border-radius: 4px !important;
     transition: 0.2s linear;
     margin: 3px !important;
     position: relative !important;
 }
-.card:hover {
-    transform: scale(1.4);
+.box-container .card:hover {
+    transform: scale(1.1);
     z-index: 10;
 }
 
-.card-icon {
+.box-container .card-icon {
     color: #fff;
     padding: 0px !important;
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.box-container .card-body {
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+.box-container .card:hover > .card-body {
+    display: block;
+}
+
+/* Footer */
+.footer {
+    margin-top: 450px;
+    height: 250px;
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.footer .copyright {
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--primary-color);
+    margin-left: 29px;
 }
