@@ -1,6 +1,13 @@
+.carousel-container {
+    position: relative;
+    top: -100px;
+    z-index: 500;
+    margin: 0 30px;
+}
+
 .carousel {
     height: 350px;
-    width: 85%;
+    width: 90%;
     margin: auto;
     position: relative;
     display: flex;
@@ -12,17 +19,22 @@
 
 .carousel .switchLeft,
 .carousel .switchRight {
-    color: white;
+    color: lightgrey;
+    cursor: pointer;
     font-weight: bold;
     height: 100%;
     width: 45px;
-    line-height: 350px;
+    line-height: 300px;
     font-size: 25px;
     text-align: center;
-    background-color: lightgreen;
     font-family: sans-serif;
     top: 0;
     z-index: 3;
+}
+
+.carousel .switchLeft span:hover,
+.carousel .switchRight span:hover {
+    color: white;
 }
 
 .carousel .switchLeft {
@@ -146,22 +158,3 @@
     font-size: 12px;
     padding-top: 10px;
 }
-
-.textBox {
-    width: 200px;
-    height: 30px;
-    border: 1px solid #000;
-    overflow: hidden;
-    line-height: 30px;
-    padding: 5px;
-    position: relative;
-  }
-  .textBox span {
-    position: absolute;
-    white-space: nowrap;
-    transform: translateX(0);
-    transition: 1s;
-  }
-  .textBox:hover span {
-    transform: translateX(calc(200px - 100%));
-  }
