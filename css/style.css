@@ -245,6 +245,7 @@ body {
 }
 
 /* Boxes */
+/*
 .box-container {
     position: relative;
     top: -100px;
@@ -287,6 +288,7 @@ body {
     margin: 3px !important;
     position: relative !important;
 }
+
 .box-container .card:hover {
     transform: scale(1.1);
     z-index: 10;
@@ -316,7 +318,6 @@ body {
 }
 
 .box-container .card-body {
-    /*display: none;*/
     padding: 10px 15px;
     position: absolute;
     background-color: #141414;
@@ -328,7 +329,6 @@ body {
 }
 
 .box-container .card:hover > .card-body {
-    /*display: block;*/
     bottom: -70px;
 }
 
@@ -339,7 +339,7 @@ body {
     border-radius: 4px 4px 0px 0px !important;
     font-weight: 600;
 }
-
+*/
 /* Footer */
 .footer {
     margin-top: 450px;
@@ -371,10 +371,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
-#profileModal .modal-header .btn-close {
-    background-color: red;
-    border-radius: 90px;
-}
+
 #profileModal .modal-body {
     padding: 0px;
 

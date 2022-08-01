@@ -1,6 +1,6 @@
 const sliders = document.querySelector(".carouselBox")
 var scrollPerClick;
-var ImagePadding = 400
+var ImagePadding = 20
 
 showMovieData()
 
@@ -42,7 +42,23 @@ async function showMovieData() {
     result.map(function(cur,index) {
         sliders.insertAdjacentHTML(
             "beforeend",
-            `<img class="img-${index} slider-img" src=https://image.tmdb.org/t/p/w220_and_h330_face${cur.poster_path} />`
+            `<div id="${cur.id}" class="opera">
+                <img src="https://image.tmdb.org/t/p/w220_and_h330_face${cur.poster_path}" class="opera-img img-${index}" alt="">
+                <div class="opera-overlay">
+                    <i class="bi bi-play-circle"></i>
+                </div>
+                <div class="opera-body">
+                    <section class="d-flex justify-content-between">
+                        <div class="opera-info">
+                            <p>Anno: ${parseInt(cur.release_date)}</p>
+                            <p>Voto: ${cur.vote_average}</p>
+                        </div>
+                        <div class="opera-more-info"><i class="bi bi-info-circle opera-icon"></i></div>
+                    </section>
+                    <p class="opera-title text-white m-0">${cur.title}</p>
+                </div>
+            </div>`
+       
         )
     })
     scrollPerClick = document.querySelector(".img-1").clientWidth + ImagePadding;

@@ -1,18 +1,13 @@
-.box {
-    height: 100vh;
-    width: 100%;
-    background-color: #262626;
+.carousel {
+    height: 350px;
+    width: 85%;
+    margin: auto;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: white;
-}
-
-.carousel {
-    height: 250px;
-    width: 80%;
-    position: relative;
 }
 
 .carousel .switchLeft,
@@ -21,7 +16,7 @@
     font-weight: bold;
     height: 100%;
     width: 45px;
-    line-height: 250px;
+    line-height: 350px;
     font-size: 25px;
     text-align: center;
     background-color: lightgreen;
@@ -40,31 +35,133 @@
     right: -50px;
 }
 
+.carousel-title {
+    width: 100%;
+    text-align:left;
+    font-weight: 600;
+    margin: 0px 6px;
+}
+
 .carouselBox {
-    height: 250px;
+    height: 350px;
     width: auto;
+    padding: 20px 0px;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     text-align: center;
-    padding-bottom: 10px !important;
     display: flex;
-    align-items: center;
 }
 
-.carouselBox img {
-    min-width: 147px;
-    max-width: 147px;
-    height: 200px;
-    background-size: cover;
-    background-color: lightgreen;
-    margin: 5px 10px;
+.carouselBox .opera {
+    min-width: 132px;
+    max-width: 132px;
+    height: 198px;
+    margin: 0 6px;
+    border-radius: 4px;
     cursor: pointer;
     transition: 0.5s ease;
     z-index: 2;
+    border-color: 1px solid red;
 }
 
-.carouselBox img:hover {
-    transform: scale(1.4);
+.carouselBox .opera:hover {
+    transform: scale(1.1);
     z-index: 5;
 }
+
+.carouselBox .opera img {
+    height: 198px;
+    border-radius: 4px;
+    background-size: cover;
+}
+
+.carouselBox .opera .opera-overlay {
+    position: relative;
+    top: -198px;
+    background: rgba(0, 0, 0, 0);
+    padding: 60px 10px;
+    height: 198px;
+    width: 132px;
+    border-radius: 4px 4px 0px 0px !important;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-align: center;
+}
+.carouselBox .opera .opera-overlay i {
+    display: none;
+    font-size: 50px;
+    transition: 0.1s ease;
+}
+
+.carouselBox .opera:hover .opera-overlay {
+    background: rgba(0, 0, 0, 0.600);
+}
+.carouselBox .opera:hover .opera-overlay i {
+    display: block;
+}
+
+.carouselBox .opera .opera-icon {
+    color: #fff;
+    padding: 0px !important;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carouselBox .opera .opera-body {
+    width: 132px;
+    height: 80px;
+    padding: 5px 10px 5px;
+    position: relative;
+    background-color: #141414;
+    border-radius: 4px;
+    top: -245px;
+    z-index: -10;
+    transition: all 0.2s linear;
+}
+
+.carouselBox .opera:hover .opera-body {
+    top: -205px;
+}
+
+.carouselBox .opera .opera-info {
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: left;
+    color: grey;
+}
+
+.carouselBox .opera .opera-info p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel .opera .opera-more-info {
+    padding-top: 10px;
+}
+
+.carouselBox .opera .opera-title {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.textBox {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #000;
+    overflow: hidden;
+    line-height: 30px;
+    padding: 5px;
+    position: relative;
+  }
+  .textBox span {
+    position: absolute;
+    white-space: nowrap;
+    transform: translateX(0);
+    transition: 1s;
+  }
+  .textBox:hover span {
+    transform: translateX(calc(200px - 100%));
+  }
