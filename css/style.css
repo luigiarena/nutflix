@@ -160,6 +160,18 @@ body {
     border-radius: 4px;
     margin-left: 20px;
     cursor: pointer;
+    transition: 0.2s linear;
+}
+.nutflix-profile:hover {
+    background-color: lightgray;
+}
+
+.nutflix-profile i{
+    color: #fff;
+    padding: 5px;
+}
+.nutflix-profile:hover > i{
+    color: black;
 }
 
 /* Showcase */
@@ -346,4 +358,31 @@ body {
     font-weight: 200;
     color: var(--primary-color);
     margin-left: 29px;
+}
+
+/* Modal */
+/* Profile */
+#profileModal .modal-content {
+    background: var(--secondary-color);
+}
+#profileModal .modal-header {
+    border-bottom: #141414;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#profileModal .modal-header .btn-close {
+    background-color: red;
+    border-radius: 90px;
+}
+#profileModal .modal-body {
+    padding: 0px;
+
+}
+#profileModal .modal-body img {
+    width: 100%;
+}
+#profileModal .modal-footer {
+    border-top: none;
+    align-items: center;
 }
