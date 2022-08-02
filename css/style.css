@@ -147,6 +147,47 @@ body {
     font-size: 13px;
 }
 
+.nutflix-navbar #nav-search {
+    padding: 0px;
+    border-radius: 90px;
+}
+
+.nutflix-navbar #nav-search input {
+    width: 250px;
+    padding: 2px 10px;
+    border-radius: 90px 0 0 90px !important;
+    right: -10px;
+    z-index: 10;
+    transition: all 0.2s linear;
+}
+
+.nutflix-navbar #nav-search span {
+    padding: 2px 10px;
+    border-radius: 0 90px 90px 0;
+    background-color: var(--primary-color);
+    z-index: 20;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.nutflix-navbar #nav-search i {
+    padding: 0 10px;
+}
+
+.nutflix-navbar #nav-search span:hover {
+    background-color: var(--primary-color) !important;
+}
+
+.nutflix-navbar #nav-search.nav-search-hidden input {
+    visibility: hidden;
+    width: 0px;
+}
+
+.nutflix-navbar #nav-search.nav-search-hidden span {
+    border-radius: 90px;
+    background-color: transparent;
+}
+
 .nutflix-navbar i {
     font-size: 20px;
     color: #fff;
@@ -154,6 +195,7 @@ body {
 }
 
 .nutflix-profile {
+    display: block;
     width: 30px;
     height: 30px;
     background-color: gray;
@@ -161,14 +203,17 @@ body {
     margin-left: 20px;
     cursor: pointer;
     transition: 0.2s linear;
+    text-align: center;
+    align-items: center;
 }
 .nutflix-profile:hover {
     background-color: lightgray;
 }
 
 .nutflix-profile i{
+    display: block;
     color: #fff;
-    padding: 5px;
+    padding: 0px 5px;
 }
 .nutflix-profile:hover > i{
     color: black;

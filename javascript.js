@@ -10,6 +10,10 @@ function volumeDown(element) {
     document.getElementById("volume-down").style.display = "block";
 }
 
+function searchButton() {
+    document.getElementById("nav-search").classList.toggle("nav-search-hidden");
+}
+
 $(document).ready(function(){
     $("body").css("background", "#555555 !important")
     $(window).scroll(function(){

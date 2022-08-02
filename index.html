@@ -54,7 +54,12 @@
             </section>
             <!-- right -->
             <section class="right d-flex align-items-center">
-              <i class="bi bi-search"></i>
+              <div id="nav-search" class="input-group nav-search-hidden">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon" onclick="searchButton()">
+                  <i class="bi bi-search"></i>
+                </span>
+              </div>
               <div type="button" class="nutflix-profile" data-bs-toggle="modal" data-bs-target="#profileModal">
                 <i class="bi bi-person-circle"></i>
               </div>
