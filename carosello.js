@@ -14,6 +14,42 @@ var boxes = [
         query: tmdb_url+"/3/discover/tv?api_key="+api_key+"&sort_by=popularity.desc",
         scrollAmount: 0
     },
+    {   tag: 'film_animation',
+        type: 0, 
+        obj: document.querySelector(".carouselBox_film_animation"),
+        query: tmdb_url+"/3/discover/movie?api_key="+api_key+"&with_genres=16&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
+    {   tag: 'tv_documentary',
+        type: 1,
+        obj: document.querySelector(".carouselBox_tv_documentary"),
+        query: tmdb_url+"/3/discover/tv?api_key="+api_key+"&with_genres=99&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
+    {   tag: 'film_horror',
+        type: 0, 
+        obj: document.querySelector(".carouselBox_film_horror"),
+        query: tmdb_url+"/3/discover/movie?api_key="+api_key+"&with_genres=27&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
+    {   tag: 'tv_comedy',
+        type: 1,
+        obj: document.querySelector(".carouselBox_tv_comedy"),
+        query: tmdb_url+"/3/discover/tv?api_key="+api_key+"&with_genres=35&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
+    {   tag: 'film_action',
+        type: 0, 
+        obj: document.querySelector(".carouselBox_film_action"),
+        query: tmdb_url+"/3/discover/movie?api_key="+api_key+"&with_genres=28&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
+    {   tag: 'tv_reality',
+        type: 1,
+        obj: document.querySelector(".carouselBox_tv_reality"),
+        query: tmdb_url+"/3/discover/tv?api_key="+api_key+"&with_genres=10764&sort_by=popularity.desc",
+        scrollAmount: 0
+    },
 ];
 
 var scrollPerClick;
