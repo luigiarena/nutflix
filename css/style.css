@@ -244,120 +244,34 @@ body {
     margin-top: 10%;
 }
 
-/* Boxes */
-/*
-.box-container {
-    position: relative;
-    top: -100px;
-    z-index: 500;
-    margin: 50px;
-}
-
-.box-container .box-header {
-    padding: 0px 6px;
-}
-
-.box-container .carousel-inner {
-    position: relative;
-    overflow: visible;
-}
-
-.box-container .carousel-section {
-    position: absolute;
-}
-
-.box-container .carousel-control-prev, .box-container .carousel-control-next {
-    position: absolute;
-    z-index: 500;
-    width: 40px;
-    height: 200px;
-}
-.box-container .carousel-control-prev {
-    left: -40px;
-}
-.box-container .carousel-control-next {
-    right: -40px;
-}
-
-.box-container .card {
-    width: 150px !important;
-    height: 200px;
-    background: #141414 !important;
-    border-radius: 4px !important;
-    transition: 0.2s linear;
-    margin: 3px !important;
-    position: relative !important;
-}
-
-.box-container .card:hover {
-    transform: scale(1.1);
-    z-index: 10;
-}
-
-.box-container .card img {
-    height: 200px;
-    border-radius: 4px !important;
-}
-
-.box-container .card-icon {
-    color: #fff;
-    padding: 0px !important;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.box-container .card-img-overlay {
-    background: rgba(0, 0, 0, 0.363);
-    padding: 6px 12px;
-    height: 40px;
-    border-radius: 4px 4px 0px 0px !important;
-    font-size: 12px;
-    transition: 0.1s linear;
-    text-align: center;
-}
-
-.box-container .card-body {
-    padding: 10px 15px;
-    position: absolute;
-    background-color: #141414;
-    border-radius: 4px;
-    bottom: 20px;
-    width: 100%;
-    z-index: -10;
-    transition: 0.2s linear;
-}
-
-.box-container .card:hover > .card-body {
-    bottom: -70px;
-}
-
-.box-container .card:hover > .card-img-overlay {
-    background: rgba(0, 0, 0, 0.500);
-    padding: 6px 12px;
-    height: 40px;
-    border-radius: 4px 4px 0px 0px !important;
-    font-weight: 600;
-}
-*/
 /* Footer */
 .footer {
-    margin-top: 450px;
-    height: 250px;
+    margin-top: 80px;
 }
 
 .footer ul {
+    padding: 0px;
     list-style: none;
     font-size: 15px;
-    color: #fff;
+    color: lightgrey;
     font-weight: 100;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    color: white;
 }
 
 .footer .copyright {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
+    letter-spacing: 2px;
     color: var(--primary-color);
-    margin-left: 29px;
+    margin: 40px auto;
+}
+
+.footer .company {
+    font-weight: 900;
 }
 
 /* Modal */
