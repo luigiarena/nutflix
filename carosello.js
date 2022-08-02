@@ -55,7 +55,9 @@ async function showMovieData() {
                         </div>
                         <div class="opera-more-info"><i class="bi bi-info-circle opera-icon"></i></div>
                     </section>
-                    <p class="opera-title text-white m-0">${cur.title}</p>
+                    <div class="opera-title text-white m-0">
+                        <p>${cur.title}</p>
+                    </div>
                 </div>
             </div>`
        

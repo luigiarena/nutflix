@@ -72,7 +72,7 @@
     margin: 0 6px;
     border-radius: 4px;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 0.1s linear;
     z-index: 2;
     border-color: 1px solid red;
 }
@@ -102,7 +102,7 @@
     text-align: center;
 }
 .carouselBox .opera .opera-overlay i {
-    display: none;
+    visibility: hidden;
     font-size: 50px;
     transition: 0.1s ease;
 }
@@ -111,7 +111,7 @@
     background: rgba(0, 0, 0, 0.600);
 }
 .carouselBox .opera:hover .opera-overlay i {
-    display: block;
+    visibility: visible;
 }
 
 .carouselBox .opera .opera-icon {
@@ -150,11 +150,39 @@
     margin: 0px;
 }
 
-.carousel .opera .opera-more-info {
+.carouselBox .opera .opera-more-info {
     padding-top: 10px;
 }
 
 .carouselBox .opera .opera-title {
+    width: 111px;
+    height: 36px;
     font-size: 12px;
     padding-top: 10px;
+    position: relative;
+   /* text-align: center; */
+    overflow: hidden;
+}
+.carouselBox .opera .opera-title p {
+    display: block;
+    width: 111px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+
+    white-space: nowrap;
+}
+
+.carouselBox .opera:hover .opera-title p{
+    /* Apply animation to this element */	
+    animation: scrolling 4s linear infinite;
+}
+
+@keyframes scrolling {
+    from {
+      transform: translateX(0%);
+    }
+    to { 
+      transform: translateX(-100%);
+    }
 }
